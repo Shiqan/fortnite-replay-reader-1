@@ -2,6 +2,7 @@ const fs = require('fs');
 const parser = require('./lib/parser.js');
 
 const file = './data/UnsavedReplay-2018.07.15-23.26.39.replay';
+// const file = './data/Update9.10.replay';
 
 const buffer = fs.readFileSync(file);
 
